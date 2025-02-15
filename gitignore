@@ -1,0 +1,14 @@
+
+node_modules/
+package-lock.json
+yarn.lock
+dist/
+build/
+scss/style.min.css
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
