@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>izuki</title>
+    <meta name="description" content="泉木材木所のホームページです。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="izuki">
+    <meta property="og:description" content="泉木材木所のホームページです。">
+    <meta property="og:url" content="https://itsukananoka.com/izuki/">
+    <meta property="og:image" content="https://itsukananoka.com/izuki/img/ogimg.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="robots" content="noindex">
+
+    <link rel="icon" href="img/logo.svg" sizes="any" type="image/svg+xml">
+    <link rel="apple-touch-icon" type="image/png" href="img/apple-touch-icon-180x180.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script defer src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
+    <script defer src='https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js'></script>
+
+    <script defer src="js/efect.js"></script>
+    <script defer src="js/index.js"></script>
+
+</head>
+
+<body>
+    <div id="loading">
+        <div class="loading-content">
+            <img src="./img/logo.svg" alt="ロゴ" id="loading-logo" height="100" width="100">
+        </div>
+    </div>
+    <div id="mouse-stalker"><span id="stalker-text"></span></div>
+
+
+    <header class="header">
+        <div class="header__container">
+            <h1 class="logo hover-stalker-item"><a href="index.html"><img src="./img/logo.svg" alt="ロゴ" width="100"
+                        height="100"></a></h1>
+
+            <button type="button" class="hamburger hover-stalker-item">
+                <span>menu</span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#mv">TOP</a></li>
+                    <li class="nav__item"><a href="#about">ABOUT</a></li>
+                    <li class="nav__item"><a href="#project">PROJECT</a></li>
+                    <li class="nav__item"><a href="#production">PRODUCTION</a></li>
+                    <li class="nav__item"><a href="https://itsukananoka.com/wika/home.php" target="_blank">SHOP
+                            <br><span class="shop-jump">-jump to shop site</span></a></li>
+                    <li class=" nav__item"><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+
+        <div id="mv">
+
+            <div class="mv__bg"><img src="./img/mv.webp" alt="霧がかかる森の様子" width="1920" height="1080"></div>
+            <div class="mv__content">
+                <h2 class="mv__title">泉木材木所</h2>
+
+            </div>
+        </div>
+
+
+
+
+
+        <div id="about">
+            <div class="spotlight-effect"></div>
+
+
+            <div class="about__content">
+                <div class="about__sub-container">
+
+                    <h2 class="about__sub-title">
+                        <span class="number">01:ABOUT</span><br>
+
+                        Wood processing in harmony with nature for a sustainable future.
+                    </h2>
+                </div>
+
+                <div class="about__img-wrapper">
+                    <div class="about__img">
+                        <img src="./img/about01.webp" alt="木材がたくさん並んでいる画像" width="500" height="400">
+                    </div>
+                    <div class="about__img">
+                        <img src="./img/about02.webp" alt="チェーンソーで木を切っている画像" width="500" height="400">
+                    </div>
+                    <div class="about__img">
+                        <img src="./img/about03.webp" alt="木工品を製作している画像" width="500" height="400">
+                    </div>
+                    <div class="about__img">
+                        <img src="./img/about04.webp" alt="森の中に丸太が並んでいる画像" width="500" height="400">
+                    </div>
+                </div>
+
+                <div class="about__text">
+                    <p>私たちIZUKIは、地球環境を守りながら、<br class="out-br">
+                        高品質で自然に優しい製品を提供することを<br class="out-br">使命としています。<br class="out-br">
+                        私たちの取り組みは、持続可能な森林管理と、<br class="out-br">
+                        伐採から製品化までのプロセスにおいて<br class="out-br">環境への配慮を徹底することに根ざしています。</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <div id="project" class="hover-stalker-item" data-text="CLICK">
+            <div class="project__number"><span class="number">02:PROJECT</span><br></div>
+            <div class="slider">
+
+                <div class="slider__inner"></div>
+
+                <div class="slide">
+                    <div class="slider__text">
+                        <div class="slider__text-item">
+                            <div>世界では森林伐採が深刻な問題となっておりますが、<br class="out-br">日本では逆の問題が起きています。<br class="out-br">
+                                木材供給が安価な輸入に傾いており、<br class="out-br">
+                                森林蓄積は土砂崩れなどの環境問題を引き起こしています。
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+
+
+                    <div class="slider__text">
+                        <div class="slider__text-item">
+                            <div>
+                                資源活用できる大きさに生長した木を伐採せず放置してしまうと、<br class="out-br">
+                                新たな植樹もできません。<br class="out-br">
+                                そのため、将来的には森林資源が減少してしまうと考えられています。<br class="out-br">
+                                私たちは、生長を終えた樹木を間伐して、<br class="out-br"> 若い樹木の生長を促し、<br class="out-br">
+                                森林資源を有効活用する活動をしています。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="slider__text">
+                        <div class="slider__text-item">
+                            <div>間伐した樹木材を使い、<br class="out-br">
+                                木材ならではの温かみのある長寿命の製品を製作しています。<br class="out-br">
+                                木材によって適した機能や耐久性を考えて、<br class="out-br">
+                                長く愛用していただけるよう作っています。
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slider__text">
+                        <div class="slider__text-item">
+                            <div>地元の方々と協力し、様々なプロジェクトを進めています。<br class="out-br">
+                                年に数回の「natureDAY」には、住民が集まり、<br class="out-br">
+                                定期的な森林の手入れを行い、<br class="out-br">
+                                森林の保全活動を行っています。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slide">
+                    <div class="slider__text">
+                        <div class="slider__text-item">
+                            <div>
+                                地域社会と協力し、森林資源を活用して、<br class="out-br">
+                                次世代に引き継ぐための取り組みを続けていきます。<br class="out-br">
+                                新たな技術や方法を積極的に取り入れ、<br class="out-br">
+                                地球環境に貢献し、より豊かな未来を築いていきます。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="slider__nav-container">
+
+                    <nav class="slider__nav">
+                        <div class="slider-title">
+                            <span class="slider-title__text slider-1">problem</span>
+                        </div>
+                        <div class="slider-title">
+                            <span class="slider-title__text slider-2">challenges</span>
+                        </div>
+                        <div class="slider-title">
+                            <span class="slider-title__text slider-3">attempt</span>
+                        </div>
+                        <div class="slider-title">
+                            <span class="slider-title__text slider-4">activity</span>
+                        </div>
+                        <div class="slider-title">
+                            <span class="slider-title__text slider-5">future</span>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="production">
+
+            <div class="production__container">
+
+                <div class="production__image-content">
+                    <div class="production__number"><span class="number">03:PRODUCTION</span><br></div>
+                    <div class="production__image-set selected">
+                        <img class="production__image1 hover-stalker-item" src="./img/shop_01.webp" alt="木でできた椅子の写真"
+                            width="870" height="1018">
+                    </div>
+                    <div class="production__image-set">
+                        <img class="production__image2 hover-stalker-item" src="./img/shop_02.webp" alt="木でできたコップの写真"
+                            width="870" height="1018">
+                    </div>
+                    <div class="production__image-set">
+                        <img class="production__image3 hover-stalker-item" src="./img/shop_03.webp" alt="積み重なった木材の写真"
+                            width="870" height="1018">
+                    </div>
+                </div>
+                <div class="production__text-set">
+                    <div class="production__images-item production__image1-text active show">
+                        <div class="production__images-text-set">
+                            <div class="production__images-title">家具</div>
+                            <p class="production__images-text">私たちの家具は、熟練の職人たちが<br class="out-br">用途に合わせて厳選した木材を使用し、<br
+                                    class="out-br">
+                                一つ一つ丁寧に作り上げています。<br class="out-br">生長を終えた樹木から生まれた木材を用い、<br class="out-br">
+                                長く使い続けられる品質を追求しています。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="production__images-item production__image2-text">
+                        <div class="production__images-text-set">
+                            <div class="production__images-title">木工小物</div>
+                            <p class="production__images-text">木材の美しさと職人の技が光る小物たち。<br class="out-br">
+                                デザインと実用性を兼ね備えた<br class="out-br">アイテムを取り揃えています。<br class="out-br">
+                                日常に自然の温かみをプラスする小物は、<br class="out-br">贈り物にも最適です。<br class="out-br">
+                                私たちのチームは、一つ一つのアイテムに<br class="out-br">こだわりを持ち、細部まで丁寧に仕上げています。</p>
+                        </div>
+                    </div>
+                    <div class="production__images-item production__image3-text">
+                        <div class="production__images-text-set">
+                            <div class="production__images-title">木材</div>
+                            <p class="production__images-text">私たちが提供する木材は、<br class="out-br">
+                                持続可能な森林管理のもとで伐採され、<br class="out-br">
+                                厳選されたものです。<br class="out-br">
+                                木材選別のプロフェッショナルたちが、<br class="out-br">その特性を最大限に活かせるよう<br class="out-br">
+                                丁寧に見極めています。<br class="out-br">
+                                建築プロジェクトに最適な木材を <br class="out-br">選別しています。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shop">
+                <div class="shop__link"><a class="shop__link-btn border hover-stalker-item"
+                        href="https://itsukananoka.com/wika/home.php" target="_blank"><span>VIEW
+                            SHOP</span></a></div>
+                <div class="wika-text">※外部websiteを開きます</div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="contact-set">
+            <div id="contact">
+                <h3 class="contact__title hover-stalker-item" data-text="CLICK">Get in touch</h3>
+            </div>
+        </div>
+
+
+
+        <div id="contact-modal" class="modal">
+            <div class="contact-modal__content">
+                <span class="close">&times;</span>
+                <h2>Contact Us</h2>
+                <form>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <div class="submit-button-container">
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+    </main>
+
+
+
+
+    <footer id="footer">
+        <div class="footer__inner">
+            <nav class="footer__nav">
+                <ul>
+                    <li class="footer__li"><a href="#mv">Top</a></li>
+                    <li class="footer__li"><a href="#about">About</a></li>
+                    <li class="footer__li"><a href="#project">Project</a></li>
+                    <li class="footer__li"><a href="#production">Production</a></li>
+                    <li class="footer__li"><a href="https://itsukananoka.com/wika/home.php"
+                            target="_blank">Shop<br><span class="shop-jump footer-shop-jump">-Jump to shop site</span>
+                        </a></li>
+                    <li class="footer__li"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="address">
+                <div class="address__item">〒399-1234</div>
+                <div class="address__item">長野県松本市</div>
+                <div class="address__item">安曇山麓町12-34</div>
+            </div>
+        </div>
+
+
+        <div class="footer__footer">
+            <h2 class="footer__izuki">泉木材木所</h2>
+            <p class="footer__copyright">©2024 IZUKI.All rights
+                reserved.</p>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
